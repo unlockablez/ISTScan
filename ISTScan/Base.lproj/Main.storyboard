@@ -44,7 +44,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PjE-T5-szZ">
-                                <rect key="frame" x="223" y="144" width="74" height="30"/>
+                                <rect key="frame" x="213" y="144" width="84" height="30"/>
                                 <color key="backgroundColor" red="0.12941176470588237" green="0.54509803921568623" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <state key="normal" title="เลือกวิชา">
@@ -56,7 +56,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3OD-Eh-AZa">
-                                <rect key="frame" x="223" y="191" width="74" height="30"/>
+                                <rect key="frame" x="213" y="191" width="84" height="30"/>
                                 <color key="backgroundColor" red="0.12941176470588237" green="0.54509803921568623" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <state key="normal" title="เลือกคาบ">
@@ -89,7 +89,7 @@
                                 <rect key="frame" x="101" y="13" width="119" height="121"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UZX-c2-5s9">
-                                <rect key="frame" x="16" y="426" width="288" height="34"/>
+                                <rect key="frame" x="16" y="421" width="288" height="39"/>
                                 <color key="backgroundColor" red="0.27450980392156865" green="0.6705882352941176" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="SCAN BARCODE">

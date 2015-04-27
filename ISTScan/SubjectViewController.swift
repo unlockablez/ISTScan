@@ -24,7 +24,7 @@ class SubjectViewController: UITableViewController {
                     (action: UIAlertAction!) in
                     self.navigationController?.popToRootViewControllerAnimated(true)
                 }))
-                self.presentViewController(alert, animated: true, completion: nil)
+                self.presentViewController(alert, animated: false, completion: nil)
             } else {
                 self.datas = JSON(json!)
                 self.tableView.reloadData()
