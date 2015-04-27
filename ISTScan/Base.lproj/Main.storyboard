@@ -43,6 +43,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="IVi-jx-QnE">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PjE-T5-szZ">
                                 <rect key="frame" x="213" y="144" width="84" height="30"/>
                                 <color key="backgroundColor" red="0.12941176470588237" green="0.54509803921568623" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
@@ -85,7 +88,7 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ist_logo" translatesAutoresizingMaskIntoConstraints="NO" id="3Xg-KN-Dxb">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ist" translatesAutoresizingMaskIntoConstraints="NO" id="3Xg-KN-Dxb">
                                 <rect key="frame" x="101" y="13" width="119" height="121"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UZX-c2-5s9">
@@ -185,6 +188,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ist_logo" width="1644" height="1644"/>
+        <image name="bg" width="168" height="300"/>
+        <image name="ist" width="200" height="200"/>
     </resources>
 </document>
