@@ -34,11 +34,11 @@ class ViewController: UIViewController {
         self.navigationController?.setNavigationBarHidden(true, animated: animated)
         
         if(shareSubject != nil) {
-            self.txtSubject.textColor = UIColor(hexString: "#259b24")
+            self.txtSubject.textColor = UIColor(hexString: "#5af158")
             self.txtSubject.text = shareSubject["code"].description + " " + shareSubject["nameth"].description
         }
         if(shareLesson != nil) {
-            self.txtLesson.textColor = UIColor(hexString: "#259b24")
+            self.txtLesson.textColor = UIColor(hexString: "#5af158")
             self.txtLesson.text = shareLesson["name"].description
         }
         
@@ -65,7 +65,11 @@ class ViewController: UIViewController {
     func customUI() {
         for btn in self.button {
             btn.layer.cornerRadius = 3
+            btn.layer.borderColor = UIColor.whiteColor().CGColor
+            btn.layer.borderWidth = 0.2
         }
+        
+        self.datePicker.backgroundColor = UIColor(hexString: "#ffffff", alpha: 0.3)
     }
 
 }

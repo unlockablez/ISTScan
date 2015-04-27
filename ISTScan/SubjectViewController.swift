@@ -46,6 +46,12 @@ class SubjectViewController: UITableViewController {
         
         let head = self.datas[indexPath.row]["code"].description + " - " + self.datas[indexPath.row]["nameen"].description
         
+        if (((indexPath.row+1) % 2) != 0) {
+            cell.backgroundColor = UIColor(hexString: "#40c4ff", alpha: 0.07)
+        } else {
+            cell.backgroundColor = UIColor(hexString: "#ff5177", alpha: 0.07)
+        }
+        
         cell.textLabel?.text = head
         cell.detailTextLabel?.text = self.datas[indexPath.row]["nameth"].description
         

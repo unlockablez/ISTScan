@@ -56,6 +56,7 @@ class ScanBarcodeViewController: UIViewController, AVCaptureMetadataOutputObject
         let output = AVCaptureMetadataOutput()
         output.setMetadataObjectsDelegate(self, queue: dispatch_get_main_queue())
         session.addOutput(output);
+        
         output.metadataObjectTypes = output.availableMetadataObjectTypes
         
         previewLayer = AVCaptureVideoPreviewLayer.layerWithSession(session) as! AVCaptureVideoPreviewLayer
