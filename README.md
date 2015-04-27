@@ -1,5 +1,5 @@
 # ISTScan
-Example iOS App Scan Barcode <br>
+Example iOS App Barcode Scanner <br>
 <br>
 <h2><b>Using</b></h2>
 <ul>
